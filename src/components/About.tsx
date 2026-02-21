@@ -36,7 +36,6 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           
-          {/* Text Content */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -58,7 +57,7 @@ export default function About() {
             <div className="grid grid-cols-2 gap-x-12 gap-y-16 pt-12">
               <div>
                 <h3 className="text-5xl md:text-6xl font-semibold text-gray-900 mb-2 tracking-tighter">
-                  <Counter from={0} to={120} />+
+                  120+
                 </h3>
                 <p className="text-gray-500 font-medium tracking-wide text-sm uppercase">Lives Impacted</p>
               </div>
@@ -70,7 +69,7 @@ export default function About() {
               </div>
               <div>
                 <h3 className="text-5xl md:text-6xl font-semibold text-gray-900 mb-2 tracking-tighter">
-                  <Counter from={0} to={15} />+
+                  15+
                 </h3>
                 <p className="text-gray-500 font-medium tracking-wide text-sm uppercase">Volunteers</p>
               </div>
@@ -81,7 +80,6 @@ export default function About() {
             </div>
           </motion.div>
 
-          {/* Image/Visual */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -96,7 +94,6 @@ export default function About() {
                 className="w-full h-full object-cover"
               />
             </div>
-            {/* Mission Card Overlay */}
             <motion.div 
               initial={{ y: 20, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
