@@ -1,0 +1,6 @@
+# Netlify configuration for SEBaid Foundation
+[build]
+  command   = "npm run build"
+  publish   = "dist"
+  environment = { NODE_VERSION = "20" }
+# Headers in public/_headers

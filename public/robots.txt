@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sebaid-foundation.netlify.app/sitemap.xml
