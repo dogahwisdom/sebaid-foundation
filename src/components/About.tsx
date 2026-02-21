@@ -58,7 +58,7 @@ export default function About() {
             <div className="grid grid-cols-2 gap-x-12 gap-y-16 pt-12">
               <div>
                 <h3 className="text-5xl md:text-6xl font-semibold text-gray-900 mb-2 tracking-tighter">
-                  <Counter from={0} to={67} />+
+                  <Counter from={0} to={120} />+
                 </h3>
                 <p className="text-gray-500 font-medium tracking-wide text-sm uppercase">Lives Impacted</p>
               </div>
