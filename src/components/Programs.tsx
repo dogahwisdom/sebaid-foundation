@@ -8,7 +8,7 @@ export default function Programs() {
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="text-4xl font-bold text-gray-900 mb-6 tracking-tight">Our Programs</h2>
           <p className="text-xl text-gray-600">
-            We focus on three core pillars to drive sustainable change and growth in the communities we serve.
+            We focus on these core pillars to drive sustainable change and growth in the communities we serve.
           </p>
         </div>
 
