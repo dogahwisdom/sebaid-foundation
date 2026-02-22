@@ -17,10 +17,10 @@ export default function About() {
               United by Impact.
             </h2>
             <p className="text-xl text-gray-600 leading-relaxed mb-8 font-light">
-              Founded with a vision to create equitable opportunities for all, SebAid Foundation operates on the belief that sustainable development starts at the community level.
+              Founded with a vision inspired by the ideals of compassion, service, equality of opportunity, and determined to empower individuals and communities through education, skills development, access to healthcare, and sustainable practices.
             </p>
             <p className="text-lg text-gray-500 leading-relaxed">
-              We focus on health equity, skill acquisition, and social support systems designed to uplift the most vulnerable. Our team is driven by compassion, integrity, and a relentless pursuit of impact.
+              We are committed to fostering unity, integrity, transparency, accountability and environmental stewardship in all our endeavors, recognizing that SebAid Foundation operates in the belief that sustainable development starts at the community level.
             </p>
           </motion.div>
           <motion.div
@@ -31,19 +31,9 @@ export default function About() {
             className="relative"
           >
             <div className="aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-700 ease-out">
-              <img 
-                src="https://images.unsplash.com/photo-1542601906990-b4d3fb7d5c73?auto=format&fit=crop&q=80&w=1000" 
-                alt="Team working in the field" 
-                className="w-full h-full object-cover"
-              />
+              <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb7d5c73?auto=format&fit=crop&q=80&w=1000" alt="Team working in the field" className="w-full h-full object-cover" />
             </div>
-            <motion.div 
-              initial={{ y: 20, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.4 }}
-              className="absolute -bottom-12 -left-12 bg-white/90 backdrop-blur-xl p-10 rounded-[2rem] shadow-xl max-w-sm hidden md:block border border-white/20"
-            >
+            <motion.div initial={{ y: 20, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} viewport={{ once: true }} transition={{ delay: 0.4 }} className="absolute -bottom-12 -left-12 bg-white/90 backdrop-blur-xl p-10 rounded-[2rem] shadow-xl max-w-sm hidden md:block border border-white/20">
               <h3 className="text-xl font-bold mb-3 text-gray-900">Our Mission</h3>
               <p className="text-gray-600 text-base leading-relaxed">
                 To empower underserved individuals and communities impacted by natural disasters,
