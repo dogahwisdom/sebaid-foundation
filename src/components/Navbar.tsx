@@ -27,11 +27,11 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16 sm:h-20">
           {/* Logo */}
           <a href="#home" className="flex-shrink-0 flex items-center gap-3 group">
-            <img src={LINKS.logo} alt="SEBaid Foundation" className="h-10 w-auto" />
+            <img src={LINKS.logo} alt="SebAid Foundation" className="h-10 w-auto" />
             <span className={`font-semibold text-xl tracking-tight transition-colors duration-300 ${
               scrolled || isOpen ? 'text-gray-900' : 'text-white'
             }`}>
-              SEBaid Foundation
+              SebAid Foundation
             </span>
           </a>
 

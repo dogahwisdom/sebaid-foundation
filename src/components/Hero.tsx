@@ -22,11 +22,11 @@ export default function Hero() {
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
         >
           <h1 className="text-6xl md:text-8xl font-semibold tracking-tighter mb-8 leading-[0.95]">
-            Empowering Communities,<br />
-            <span className="text-white/80">Driving Change.</span>
+            Empowering Lives,<br />
+            <span className="text-white/80">Building Futures.</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 max-w-2xl mx-auto mb-12 font-normal leading-relaxed tracking-tight">
-            SEBaid Foundation is dedicated to bridging gaps in health, education, and opportunity across Ghana.
+            SebAid Foundation is dedicated to bridging gaps in health, education, and opportunity across Ghana.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">

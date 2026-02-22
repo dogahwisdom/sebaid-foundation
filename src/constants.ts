@@ -88,7 +88,7 @@ export const VIDEOS = [
     title: "Beneficiary Testimonials",
     thumbnail: "https://img.youtube.com/vi/s7rEYEQoTrY/maxresdefault.jpg",
     duration: "2:30",
-    description: "Hear directly from the people whose lives have been transformed by SEBaid Foundation's initiatives."
+    description: "Hear directly from the people whose lives have been transformed by SebAid Foundation's initiatives."
   },
   {
     id: "57D-itnN1B8",

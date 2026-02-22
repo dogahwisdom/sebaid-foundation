@@ -10,11 +10,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-6">
             <a href="#home" className="flex items-center gap-2">
-              <img src={LINKS.logo} alt="SEBaid Foundation" className="h-10 w-auto" />
-              <span className="font-bold text-xl">SEBaid Foundation</span>
+              <img src={LINKS.logo} alt="SebAid Foundation" className="h-10 w-auto" />
+              <span className="font-bold text-xl">SebAid Foundation</span>
             </a>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Empowering communities and driving sustainable change through health, education, and social support initiatives across Ghana.
+              Empowering lives and building futures through health, education, and social support initiatives across Ghana.
             </p>
             <div className="flex gap-4">
               <a href={LINKS.facebook} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors">
@@ -66,7 +66,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} SEBaid Foundation. All rights reserved.
+            &copy; {new Date().getFullYear()} SebAid Foundation. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-gray-500">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>

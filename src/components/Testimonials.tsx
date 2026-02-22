@@ -6,11 +6,11 @@ const TESTIMONIALS = [
   {
     quote: "Our mission is not just to provide aid, but to empower individuals to become the architects of their own future. Together, we are building a legacy of hope and resilience.",
     author: "Ethel Sebuabe",
-    role: "Founder & CEO, SEBaid Foundation",
+    role: "Founder & CEO, SebAid Foundation",
     image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200"
   },
   {
-    quote: "SEBaid Foundation didn't just give me a scholarship; they gave me a future. I'm now the first university graduate in my family.",
+    quote: "SebAid Foundation didn't just give me a scholarship; they gave me a future. I'm now the first university graduate in my family.",
     author: "Kwame Mensah",
     role: "Scholarship Recipient",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
@@ -22,7 +22,7 @@ const TESTIMONIALS = [
     image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&q=80&w=200"
   },
   {
-    quote: "Partnering with SEBaid has allowed us to reach remote areas we couldn't access before. Their grassroots network is incredible.",
+    quote: "Partnering with SebAid has allowed us to reach remote areas we couldn't access before. Their grassroots network is incredible.",
     author: "Dr. Samuel Ofori",
     role: "Medical Partner",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200"

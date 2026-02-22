@@ -1,6 +1,16 @@
-# Netlify configuration for SEBaid Foundation
+# Netlify configuration for SebAid Foundation
+# https://docs.netlify.com/configure-builds/file-based-configuration/
+
 [build]
   command   = "npm run build"
   publish   = "dist"
   environment = { NODE_VERSION = "20" }
-# Headers in public/_headers
+
+# Redirect SPA: all routes serve index.html (optional; Netlify handles this for static by default)
+# Uncomment if you add client-side routing (e.g. React Router):
+# [[redirects]]
+#   from    = "/*"
+#   to      = "/index.html"
+#   status  = 200
+
+# Headers are in public/_headers and copied to dist during build
