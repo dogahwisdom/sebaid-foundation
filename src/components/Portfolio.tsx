@@ -29,7 +29,7 @@ export default function Portfolio() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent p-12 flex flex-col justify-end opacity-90 group-hover:opacity-100 transition-opacity">
               <span className="text-white/80 text-sm font-medium tracking-widest uppercase mb-4">Education</span>
               <h3 className="text-4xl font-bold text-white mb-4 leading-tight">Education for All</h3>
-              <p className="text-gray-300 text-lg max-w-md">Provided learning materials to over 500 students in rural districts, bridging the digital divide.</p>
+              <p className="text-gray-300 text-lg max-w-md">We provided trainings on soft and hard skills for women and youth, bridging the digital divide in rural districts.</p>
             </div>
           </motion.div>
 

@@ -49,7 +49,7 @@ export const PROGRAMS = [
   },
   {
     title: "Skill Development",
-    description: "Empowering youth and women with vocational skills for sustainable livelihoods.",
+    description: "We provided trainings on soft and hard skills for women and youth.",
     icon: Lightbulb,
     image: "https://i.imgur.com/WBrhCZ3.png"
   },
