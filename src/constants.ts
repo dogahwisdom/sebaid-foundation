@@ -89,19 +89,5 @@ export const VIDEOS = [
     thumbnail: "https://img.youtube.com/vi/s7rEYEQoTrY/maxresdefault.jpg",
     duration: "2:30",
     description: "Hear directly from the people whose lives have been transformed by SebAid Foundation's initiatives."
-  },
-  {
-    id: "57D-itnN1B8",
-    title: "Adwumawura Initiative",
-    thumbnail: "https://img.youtube.com/vi/57D-itnN1B8/maxresdefault.jpg",
-    duration: "3:45",
-    description: "Empowering local entrepreneurs and small business owners through our Adwumawura program."
-  },
-  {
-    id: "4nkBRUtW6iI",
-    title: "Pitch Day Highlights",
-    thumbnail: "https://img.youtube.com/vi/4nkBRUtW6iI/maxresdefault.jpg",
-    duration: "4:15",
-    description: "Young innovators showcasing their ideas and solutions for community development."
   }
 ];
